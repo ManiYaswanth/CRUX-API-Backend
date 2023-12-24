@@ -21,7 +21,7 @@ def validate_request(data):
             return "invalid"
     return "valid"
 
-def get_crux_data_report(urls: list[str], metric_filter: list[str], threshold_filter: str):
+def get_crux_data_report(urls: list, metric_filter: list, threshold_filter: str):
     '''
     Receives data from CRUX API for the urls received from request
         args:
